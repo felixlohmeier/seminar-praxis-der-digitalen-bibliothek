@@ -11,6 +11,6 @@ Fragen:
 
 Inhalte:
 
-1. [OPAC vs. Discovery-System](https://felixlohmeier.gitbooks.io/seminar-wir-bauen-uns-einen-bibliothekskatalog/content/01_1_opac_vs_discovery-system.html) (Steilen 2012)
-2. [Zwischenbilanz mit Problemen und Lösungsansätzen](https://felixlohmeier.gitbooks.io/seminar-wir-bauen-uns-einen-bibliothekskatalog/content/01_2_zwischenbilanz_mit_problemen_und_loesungsansaetzen.html) (Christensen 2014)
-3. [Marktüberblick](https://felixlohmeier.gitbooks.io/seminar-wir-bauen-uns-einen-bibliothekskatalog/content/01_3_marktueberblick.html) (Breeding 2014)
+1. [OPAC vs. Discovery-System](1-1-1-opac-vs-discovery-system.md)
+2. [Zwischenbilanz mit Problemen und Lösungsansätzen]() (Christensen 2014)
+3. [Marktüberblick]()
