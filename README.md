@@ -23,9 +23,9 @@ Dieses Skript entsteht in der Zeit vom März bis Mai 2017 im Rahmen der folgende
 Für jedes Kapitel sind 4 Stunden Bearbeitungszeit eingeplant:
 
 Kapitel 1
-* [1.1 Einführung in Discovery-Systeme in Bibliotheken](https://felixlohmeier.gitbooks.io/seminar-praxis-der-digitalen-bibliothek/content/1-1-einfuehrung-in-discovery-systeme-in-bibliotheken.html)
-* [1.2 Open-Source-Software für Bibliothekskataloge](https://felixlohmeier.gitbooks.io/seminar-praxis-der-digitalen-bibliothek/content/1-2-open-source-software-fuer-bibliothekskataloge)
-* [1.3 Grundinstallation der Arbeitsumgebung](https://felixlohmeier.gitbooks.io/seminar-praxis-der-digitalen-bibliothek/content/1-3-grundinstallation-der-arbeitsumgebung.md)
+* [1.1 Einführung in Discovery-Systeme in Bibliotheken](1-1-einfuehrung-in-discovery-systeme-in-bibliotheken.md)
+* [1.2 Open-Source-Software für Bibliothekskataloge](1-2-open-source-software-fuer-bibliothekskataloge.md)
+* [1.3 Grundinstallation der Arbeitsumgebung](1-3-grundinstallation-der-arbeitsumgebung.md)
 
 Kapitel 2
 * ...
