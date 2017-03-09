@@ -39,6 +39,14 @@ Kapitel 4
 Kapitel 5
 * ...
 
+## Beschreibung
+
+Zeitgemäße Recherchesysteme bedienen sich moderner Suchmaschinentechnologien. So haben die meisten größeren Bibliotheken in den letzten 10 Jahren ihre klassischen Online-Kataloge (OPACs) auf modernere Discovery-Systeme umgestellt. Diese Systeme sind allerdings trotz standardisierter Webtechnologien keine Selbstläufer. Egal ob gekauft oder selbst entwickelt, das Ranking nach Relevanz bringt nur dann richtig gute Ergebnisse, wenn die Bestände der Bibliothek für die jeweilige Zielgruppe klug aufbereitet werden. Dafür müssen Bibliothekarinnen und Bibliothekare sich immer intensiver mit der zugrundeliegenden Technik und den (Meta)daten auseinandersetzen.
+
+Der Einstieg in die mysteriös anmutende Discovery-Technik fällt oft schwer, die Zusammenhänge sind in der Theorie manchmal unverständlich. Daher ist es am besten, die Technik selbst auszuprobieren und einen Blick unter die Haube zu werfen. Dank der freien Verfügbarkeit von Open-Source-Anwendungen für Metadatenmanagement und Katalogpräsentation ist das möglich geworden.
+
+In diesem Wahlpflichtmodul werden wir in praktischen Übungen reale Bibliotheksdaten verarbeiten und einen Prototyp eines modernen Discovery-Systems aufsetzen. Programmierkenntnisse sind dafür nicht erforderlich. Die praktischen Übungen werden im PC-Pool der HsH durchgeführt.
+
 ## Intention Openness
 
 Soweit möglich werden die Materialien für die Lehrveranstaltung an dieser Stelle online gestellt, damit sie vielleicht auch über den Kreis der SeminarteilnehmerInnen hinaus nützlich sind.
