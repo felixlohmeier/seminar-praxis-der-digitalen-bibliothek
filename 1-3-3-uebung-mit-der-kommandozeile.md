@@ -4,7 +4,7 @@
 
 Für die folgende Übung wird das (sehr) kleine Programm curl benötigt. Bei vielen Linux-Distributionen ist es vorinstalliert, aber bei Ubuntu MATE nicht. Starten Sie zur Installation die Kommandozeile (Terminal) und geben Sie den folgenden Befehl ein:
 
-sudo apt-get install curl
+```sudo apt-get install curl```
 
 Sie werden nach Ihrem Passwort gefragt, anschließend startet der Installationsprozess. So sollte es danach aussehen:
 

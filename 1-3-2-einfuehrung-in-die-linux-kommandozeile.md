@@ -4,7 +4,7 @@ Wer Webserver administrieren möchte, der kommt an der [Kommandozeile](https://d
 
 ## Kommandozeile (Terminal) starten
 
-Normalerweise werden Server sogar ausschließlich über die Kommandozeile gesteuert. Hier im Seminar verwenden wir Ubuntu Mate inklusive grafischer Oberfläche, um den Einstieg etwas zu erleichtern. Die Kommandozeile (auch "[Terminal](https://wiki.ubuntuusers.de/Terminal/)" genannt) von Ubuntu MATE erreichen wir über das Menü "Anwendungen -> Systemwerkzeuge -> MATE-Terminal".
+Normalerweise werden Server sogar ausschließlich über die Kommandozeile gesteuert. Hier im Seminar verwenden wir Ubuntu MATE inklusive grafischer Oberfläche, um den Einstieg etwas zu erleichtern. Die Kommandozeile (auch "[Terminal](https://wiki.ubuntuusers.de/Terminal/)" genannt) von Ubuntu MATE erreichen wir über das Menü "Anwendungen -> Systemwerkzeuge -> MATE-Terminal".
 
 ![Screenshot Terminal starten](/images/screenshot-terminal-starten.png)
 
