@@ -1,29 +1,33 @@
 # 1.3.1 Installation der virtuellen Maschine
 
-Wir verwenden die Virtualisierungssoftware [VirtualBox](http://www.virtualbox.org), um einen Linux-Webserver auf dem Computer zu installieren. VirtualBox ist für Windows, Mac OS und Linux kostenfrei erhältlich.
+Wir verwenden die Virtualisierungssoftware [VirtualBox](http://www.virtualbox.org), um eine virtuelle Maschine mit Linux auf dem Computer zu installieren. VirtualBox ist für Windows, Mac OS und Linux kostenfrei erhältlich.
+
+VirtualBox ermöglicht es Ihnen auf ihrem gewohnten Betriebssystem (Windows, Mac, Linux) beliebige weitere Gast-Betriebssysteme zu installieren und parallel auszuführen. Die Gast-Betriebssysteme laufen in einer gesicherten, virtuellen Arbeitsumgebung. So können sie lokal einen virtuellen Linux-Server auf ihrem Computer installieren und bei Bedarf starten.
 
 **Systemvoraussetzungen:**
+
 * Computer mit Windows, Mac oder Linux
 * mindestens 2 GB freien Arbeitsspeicher für die virtuelle Maschine
-* 20 GB freien Speicher auf der Festplatte
+* mehr als 8 GB freien Speicher auf der Festplatte
 * einigermaßen aktuelle CPU mit [Hardware-Unterstützung für Virtualisierung](http://www.sysprobs.com/disable-enable-virtualization-technology-bios) (Intel VT-X, AMD-V)
 
-## Schritt 1: VirtualBox installieren
+## Schritt-für-Schritt Anleitung
 
-Laden Sie die Installationsdatei für ihr Betriebssystem unter https://www.virtualbox.org/wiki/Downloads und folgen Sie den Anweisungen des Installationsprogramms.
+Im Seminar an der Hochschule Hannover stehen im PC-Pool Computer mit Windows zur Verfügung. Wir verwenden dort aus technischen Gründen USB-Sticks für die Speicherung der virtuellen Maschine. Wenn Sie die virtuelle Maschine auf ihrem eigenen Laptop installieren, dann können Sie die Daten auch direkt auf ihrer Festplatte speichern, was die Performance verbessert.
 
-Eine Einführung in das Programm bietet das offizielle Handbuch (in englisch): https://www.virtualbox.org/manual/ch01.html
+Hier eine Schritt-für-Schritt-Anleitung zur Installation auf USB-Stick unter Windows 10:
 
-VirtualBox ermöglicht es Ihnen auf ihrem gewohnten Betriebssystem (Windows, Mac, Linux) beliebige weitere Gast-Betriebssysteme zu installieren und parallel auszuführen. Die Gast-Betriebssysteme laufen in einer gesicherten, virtuellen Arbeitsumgebung. So können sie lokal einen virtuellen Linux-Webserver auf ihrem Computer installieren und bei Bedarf starten.
+[![Screenshot Anleitung Virtualbox](/images/screenshot-virtualbox-anleitung.png)](https://de.slideshare.net/f.lohmeier/installation-einer-virtuellen-maschine-ubuntu-mate-1604-lts-auf-usbstick-mit-virtualbox-unter-windows/)
 
-Starten Sie den VirtualBox Manager, klicken Sie auf Neu, wählen Sie als Typ "Linux" und prüfen Sie, ob Ihnen bei "Version" Auswahlmöglichkeiten mit 64-bit angeboten werden. Falls ausschließlich 32-bit zur Verfügung steht, dann ist Ihr Rechner etwas älter oder ein anderes Virtualisierungsprogramm (manchmal ist Microsoft Hyper-V vorinstalliert) blockiert die 64-bit-Funktionen. Jedenfalls müssen Sie in Schritt 2 das passende Installationsmedium (32-bit oder 64-bit) herunterladen (bevorzugt 64-bit, wenn ihr Rechner das unterstützt).
+Die Anleitung enthält die folgenden Abschnitte:
 
-## Schritt 2: Installationsdatei für Ubuntu MATE herunterladen
-
-Laden Sie das Installationsmedium von der offiziellen Webseite unter https://ubuntu-mate.org/download herunter. Für ein stabiles System empfiehlt sich der Download der Long-Term-Support (LTS) Version, also beispielsweise Ubuntu MATE 16.04.2 LTS.
-
-## Schritt 3: Virtuelle Maschine in VirtualBox erstellen und Ubuntu MATE installieren
-
-Für die weitere Konfiguration orientieren Sie sich an der folgenden Screenshot-Galerie:
-
-(folgt)
+* Schritt 1: VirtualBox installieren ([ab Folie 3](https://de.slideshare.net/f.lohmeier/installation-einer-virtuellen-maschine-ubuntu-mate-1604-lts-auf-usbstick-mit-virtualbox-unter-windows/3))
+* Schritt 2: Ubuntu MATE herunterladen ([ab Folie 15](https://de.slideshare.net/f.lohmeier/installation-einer-virtuellen-maschine-ubuntu-mate-1604-lts-auf-usbstick-mit-virtualbox-unter-windows/15))
+* Schritt 3: USB-Stick vorbereiten ([ab Folie 21](https://de.slideshare.net/f.lohmeier/installation-einer-virtuellen-maschine-ubuntu-mate-1604-lts-auf-usbstick-mit-virtualbox-unter-windows/21))
+* Schritt 4: VirtualBox Standardspeicherort einstellen ([ab Folie 27](https://de.slideshare.net/f.lohmeier/installation-einer-virtuellen-maschine-ubuntu-mate-1604-lts-auf-usbstick-mit-virtualbox-unter-windows/27))
+* Schritt 5: Virtuelle Maschine erstellen ([ab Folie 32](https://de.slideshare.net/f.lohmeier/installation-einer-virtuellen-maschine-ubuntu-mate-1604-lts-auf-usbstick-mit-virtualbox-unter-windows/32))
+* Schritt 6: Ubuntu MATE installieren ([ab Folie 46](https://de.slideshare.net/f.lohmeier/installation-einer-virtuellen-maschine-ubuntu-mate-1604-lts-auf-usbstick-mit-virtualbox-unter-windows/46))
+* Schritt 7: System aktualisieren ([ab Folie 68](https://de.slideshare.net/f.lohmeier/installation-einer-virtuellen-maschine-ubuntu-mate-1604-lts-auf-usbstick-mit-virtualbox-unter-windows/68))
+* Schritt 8: VirtualBox Gasterweiterungen installieren ([ab Folie 75](https://de.slideshare.net/f.lohmeier/installation-einer-virtuellen-maschine-ubuntu-mate-1604-lts-auf-usbstick-mit-virtualbox-unter-windows/75))
+* Schritt 9: Virtuelle Maschine beenden ([ab Folie 87](https://de.slideshare.net/f.lohmeier/installation-einer-virtuellen-maschine-ubuntu-mate-1604-lts-auf-usbstick-mit-virtualbox-unter-windows/87))
+* Optional: Virtuelle Maschine an anderen Computern einsetzen ([ab Folie 94](https://de.slideshare.net/f.lohmeier/installation-einer-virtuellen-maschine-ubuntu-mate-1604-lts-auf-usbstick-mit-virtualbox-unter-windows/94))

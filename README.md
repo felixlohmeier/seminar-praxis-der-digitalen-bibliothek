@@ -1,6 +1,6 @@
 # Skript zum Seminar "Praxis der digitalen Bibliothek" \(Sommersemester 2017\)
 
-Das Skript basiert auf einer vorigen [Lehrveranstaltung an der HAW Hamburg im Wintersemester 2016/17](https://www.gitbook.com/book/felixlohmeier/seminar-wir-bauen-uns-einen-bibliothekskatalog/) mit 4 SWS. Diese Fassung ist weiterentwickelt und für eine Lehrveranstaltung mit 2 SWS um die Hälfte komprimiert.
+Das Skript basiert auf einer vorigen [Lehrveranstaltung an der HAW Hamburg im Wintersemester 2016/17](https://www.gitbook.com/book/felixlohmeier/seminar-wir-bauen-uns-einen-bibliothekskatalog/) mit 4 SWS. Diese Fassung ist weiterentwickelt und für eine Lehrveranstaltung mit 2 SWS auf die Hälfte komprimiert.
 
 ## Formate
 * Lesefassung bei GitBook (HTML): https://www.gitbook.com/read/book/felixlohmeier/seminar-praxis-der-digitalen-bibliothek
@@ -9,7 +9,7 @@ Das Skript basiert auf einer vorigen [Lehrveranstaltung an der HAW Hamburg im Wi
 
 ## Lehrveranstaltung
 
-Dieses Skript entsteht in der Zeit vom März bis Mai 2017 im Rahmen der folgenden Lehrveranstaltung:
+Dieses Skript entsteht in der Zeit von März bis Mai 2017 im Rahmen der folgenden Lehrveranstaltung:
 
 * Seminar "Praxis der digitalen Bibliothek"
 * Dozent: [Felix Lohmeier](http://felixlohmeier.de)
@@ -45,7 +45,7 @@ Zeitgemäße Recherchesysteme bedienen sich moderner Suchmaschinentechnologien. 
 
 Der Einstieg in die mysteriös anmutende Discovery-Technik fällt oft schwer, die Zusammenhänge sind in der Theorie manchmal unverständlich. Daher ist es am besten, die Technik selbst auszuprobieren und einen Blick unter die Haube zu werfen. Dank der freien Verfügbarkeit von Open-Source-Anwendungen für Metadatenmanagement und Katalogpräsentation ist das möglich geworden.
 
-In diesem Wahlpflichtmodul werden wir in praktischen Übungen reale Bibliotheksdaten verarbeiten und einen Prototyp eines modernen Discovery-Systems aufsetzen. Programmierkenntnisse sind dafür nicht erforderlich. Die praktischen Übungen werden im PC-Pool der HsH durchgeführt.
+In diesem Seminar werden wir in praktischen Übungen reale Bibliotheksdaten verarbeiten und einen Prototyp eines modernen Discovery-Systems aufsetzen. Programmierkenntnisse sind dafür nicht erforderlich. Die praktischen Übungen werden im PC-Pool der Hochschule Hannover durchgeführt.
 
 ## Intention Openness
 

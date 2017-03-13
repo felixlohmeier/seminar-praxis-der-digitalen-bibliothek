@@ -1,8 +1,18 @@
 # 1.3.3 Übung mit der Kommandozeile
 
-Starten Sie die Kommandozeile (Terminal), geben Sie die folgenden Befehle ein.
+## Installieren Sie das kleine Programm curl
+
+Für die folgende Übung wird das (sehr) kleine Programm curl benötigt. Bei vielen Linux-Distributionen ist es vorinstalliert, aber bei Ubuntu MATE nicht. Starten Sie zur Installation die Kommandozeile (Terminal) und geben Sie den folgenden Befehl ein:
+
+sudo apt-get install curl
+
+Sie werden nach Ihrem Passwort gefragt, anschließend startet der Installationsprozess. So sollte es danach aussehen:
+
+![Screenshot Installation curl](/images/screenshot-curl-installieren.png)
 
 ## Übung: Text durchsuchen und Wörter zählen
+
+Starten Sie die Kommandozeile (Terminal) und geben Sie die folgenden Befehle ein:
 
 ### Schritt 1: "War and Peace" von Leo Tolstoy herunterladen und anzeigen
 * ```curl http://www.gutenberg.org/files/2600/2600-0.txt > war_and_peace.txt```

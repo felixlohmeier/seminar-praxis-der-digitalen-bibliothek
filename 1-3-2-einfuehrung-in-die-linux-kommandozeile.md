@@ -2,9 +2,17 @@
 
 Wer Webserver administrieren möchte, der kommt an der [Kommandozeile](https://de.wikipedia.org/wiki/Kommandozeile) von Linux nicht vorbei. In Textform lassen sich Server einfach sicherer und schneller steuern als über grafische Oberflächen. 
 
-Normalerweise werden Server sogar ausschließlich über die Kommandozeile gesteuert. Hier im Seminar verwenden wir Ubuntu Mate inklusive grafischer Oberfläche, um den Einstieg etwas zu erleichtern. Die Kommandozeile (auch "[Terminal](https://wiki.ubuntuusers.de/Terminal/)" genannt) von Ubuntu Mate erreichen wir über das Menü "Anwendungen -> Systemwerkzeuge -> MATE-Terminal".
+## Kommandozeile (Terminal) starten
 
-Bevor wir in Kapitel 1.3.3 in die Praxis einsteigen, hier noch ein paar Literaturtipps vorab:
+Normalerweise werden Server sogar ausschließlich über die Kommandozeile gesteuert. Hier im Seminar verwenden wir Ubuntu Mate inklusive grafischer Oberfläche, um den Einstieg etwas zu erleichtern. Die Kommandozeile (auch "[Terminal](https://wiki.ubuntuusers.de/Terminal/)" genannt) von Ubuntu MATE erreichen wir über das Menü "Anwendungen -> Systemwerkzeuge -> MATE-Terminal".
+
+![Screenshot Terminal starten](/images/screenshot-terminal-starten.png)
+
+![Screenshot Terminal geöffnet](/images/screenshot-terminal.png)
+
+## Literaturtipps
+
+Bevor wir im folgenden Kapitel 1.3.3 in die Praxis einsteigen, hier noch ein paar Literaturtipps vorab:
 
 * Eine gute Einführung in die Linux-Kommandozeile bietet [http://linuxcommand.org](http://linuxcommand.org) von William E. Shotts, der auch ein kostenfreies [540-Seiten-Buch](http://linuxcommand.org/tlcl.php) darüber geschrieben hat.
 * Es gibt sehr viele praktische kleine Programme auf der Kommandozeile. Zur Übersicht eignet sich daher ein Spickzettel ("Cheatsheet") sehr gut. Ein Beispiel für die unzähligen Cheatsheets: [http://cheatsheetworld.com/programming/unix-linux-cheat-sheet/](http://cheatsheetworld.com/programming/unix-linux-cheat-sheet/).
