@@ -18,4 +18,5 @@
 * [Kapitel 3](3-0.md)
 * [Kapitel 4](4-0.md)
 * [Kapitel 5](5-0.md)
+* [Lerntagebücher](lerntagebuecher.md)
 * [Prüfungsleistungen](pruefungsleistungen.md)

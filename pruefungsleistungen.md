@@ -33,7 +33,7 @@ Mögliche Themen:
 * Weiterentwicklung der virtuellen Maschine
 * Eingrenzung der Weiterentwicklung in Abstimmung mit dem Dozent
 * Einzel- oder 2er-Arbeit
-* Mögliche Punkte sind: Anpassung des Relevanzrankings (mit Beispielsuchen), Nutzerorientiertes Design der Katalogoberfläche, Auswahl und Prozessierung weiterer Daten (z.B. Open Access Artikel oder Forschungsdaten), Programmierung einer Zusatzfunktion (z.B. Export in Literaturverwaltungssysteme)
+* Mögliche Punkte sind: Anpassung des Relevanzrankings (mit Beispielsuchen), Nutzerorientiertes Design der Katalogoberfläche, Auswahl und Prozessierung weiterer Daten (z.B. Open Access Artikel), Programmierung einer Zusatzfunktion (z.B. Export in Literaturverwaltungssysteme)
+* Abgabe der weiterentwickelten virtuellen Maschine als "Appliance" (Export aus VirtualBox)
 * Schriftliche Herleitung und Begründung (etwa 1 A4-Seite) der Weiterentwicklung
 * Triviale Anpassungen reichen nicht aus
-* Vorstellung der Ergebnisse (5-15 Minuten) im Seminar

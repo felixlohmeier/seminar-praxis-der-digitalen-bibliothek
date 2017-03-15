@@ -39,6 +39,12 @@ Kapitel 4
 Kapitel 5
 * ...
 
+## Lerntagebücher
+
+Als eine mögliche [Prüfungsleistung](pruefungsleistungen.md) haben Studierende öffentliche Lerntagebücher geschrieben, in denen sie von ihren Erkenntnissen berichten und sich mit dem Inhalt des Seminars auseinandersetzen.
+
+Die Blogs der Studierenden sind unter der Rubrik [Lerntagebücher](lerntagebucher.md) aufgeführt. Thematisch relevante Beiträge sind in den jeweiligen Kapiteln im Skript verlinkt.
+
 ## Beschreibung
 
 Zeitgemäße Recherchesysteme bedienen sich moderner Suchmaschinentechnologien. So haben die meisten größeren Bibliotheken in den letzten 10 Jahren ihre klassischen Online-Kataloge (OPACs) auf modernere Discovery-Systeme umgestellt. Diese Systeme sind allerdings trotz standardisierter Webtechnologien keine Selbstläufer. Egal ob gekauft oder selbst entwickelt, das Ranking nach Relevanz bringt nur dann richtig gute Ergebnisse, wenn die Bestände der Bibliothek für die jeweilige Zielgruppe klug aufbereitet werden. Dafür müssen Bibliothekarinnen und Bibliothekare sich immer intensiver mit der zugrundeliegenden Technik und den (Meta)daten auseinandersetzen.
