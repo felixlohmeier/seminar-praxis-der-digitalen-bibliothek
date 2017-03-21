@@ -1,7 +1,7 @@
 # Summary
 
 * [Einleitung](README.md)
-* [Kapitel 1](1-0.md)
+* [Kapitel 1](1-0-einfuehrung-ins-thema-und-installation-der-arbeitsumgebung.md)
  * [1.1 Einführung in Discovery-Systeme in Bibliotheken](1-1-0-einfuehrung-in-discovery-systeme-in-bibliotheken.md)
    * [1.1.1 OPAC vs. Discovery-System](1-1-1-opac-vs-discovery-system.md)
    * [1.1.2 Zwischenbilanz mit Problemen und Lösungsansätzen](1-1-2-zwischenbilanz-mit-problemen-und-loesungsansaetzen.md)
@@ -14,9 +14,9 @@
    * [1.3.1 Installation der virtuellen Maschine](1-3-1-installation-der-virtuellen-maschine.md)
    * [1.3.2 Einführung in die Linux Kommandozeile](1-3-2-einfuehrung-in-die-linux-kommandozeile.md)
    * [1.3.3 Übung mit der Kommandozeile](1-3-3-uebung-mit-der-kommandozeile.md)
-* [Kapitel 2](2-0.md)
-* [Kapitel 3](3-0.md)
-* [Kapitel 4](4-0.md)
-* [Kapitel 5](5-0.md)
+* [Kapitel 2](2-0-metadaten-laden-und-mit-openrefine-transformieren.md)
+* [Kapitel 3](3-0-transformierte-metadaten-mit-solr-indexieren.md)
+* [Kapitel 4](4-0-prototyp-eines-katalogs-mit-typo3-find-bauen.md)
+* [Kapitel 5](5-0-erweiterungsmoeglichkeiten.md)
 * [Lerntagebücher](lerntagebuecher.md)
 * [Prüfungsleistungen](pruefungsleistungen.md)

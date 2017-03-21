@@ -1,6 +1,6 @@
-# Kapitel 1
+# Kapitel 1: Einführung ins Thema und Installation der Arbeitsumgebung
 
-Bitte nehmen Sie sich für die folgenden Abschnitte jeweils etwa 1 Stunde Zeit:
+Bitte nehmen Sie sich für die folgenden Abschnitte insgesamt etwa 4 Stunden Zeit:
 
 * [1.1 Einführung in Discovery-Systeme in Bibliotheken](1-1-einfuehrung-in-discovery-systeme-in-bibliotheken.md)
 * [1.2 Open-Source-Software für Bibliothekskataloge](1-2-open-source-software-fuer-bibliothekskataloge.md)

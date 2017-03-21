@@ -20,23 +20,23 @@ Dieses Skript entsteht in der Zeit von März bis Mai 2017 im Rahmen der folgende
 
 ## Inhalte
 
-Für jedes Kapitel sind 4 Stunden Bearbeitungszeit eingeplant:
+Für jedes Kapitel sind etwa 4 Stunden Bearbeitungszeit eingeplant:
 
-Kapitel 1
+Kapitel 1: Einführung ins Thema und Installation der Arbeitsumgebung
 * [1.1 Einführung in Discovery-Systeme in Bibliotheken](1-1-0-einfuehrung-in-discovery-systeme-in-bibliotheken.md)
 * [1.2 Open-Source-Software für Bibliothekskataloge](1-2-0-open-source-software-fuer-bibliothekskataloge.md)
 * [1.3 Grundinstallation der Arbeitsumgebung](1-3-0-grundinstallation-der-arbeitsumgebung.md)
 
-Kapitel 2
+Kapitel 2: Metadaten laden und mit OpenRefine transformieren
 * ...
 
-Kapitel 3
+Kapitel 3: Transformierte Metadaten mit Solr indexieren
 * ...
 
-Kapitel 4
+Kapitel 4: Prototyp eines Katalogs mit TYPO3-find bauen
 * ...
 
-Kapitel 5
+Kapitel 5: Erweiterungsmöglichkeiten
 * ...
 
 ## Lerntagebücher
