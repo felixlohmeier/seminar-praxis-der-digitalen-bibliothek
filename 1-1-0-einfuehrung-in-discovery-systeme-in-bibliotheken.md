@@ -11,5 +11,5 @@ Fragen:
 Inhalte:
 
 1. [OPAC vs. Discovery-System](1-1-1-opac-vs-discovery-system.md)
-2. [Zwischenbilanz mit Problemen und Lösungsansätzen](1-1-2-zwischenbilanz-mit-problemen-und-loesungsansaetzen.md) (Christensen 2014)
+2. [Zwischenbilanz mit Problemen und Lösungsansätzen](1-1-2-zwischenbilanz-mit-problemen-und-loesungsansaetzen.md)
 3. [Marktüberblick](1-1-3-marktueberblick.md)
