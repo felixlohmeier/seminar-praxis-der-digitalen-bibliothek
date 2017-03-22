@@ -43,7 +43,7 @@ Kapitel 5: Erweiterungsmöglichkeiten
 
 Als eine mögliche [Prüfungsleistung](pruefungsleistungen.md) haben Studierende öffentliche Lerntagebücher geschrieben, in denen sie von ihren Erkenntnissen berichten und sich mit dem Inhalt des Seminars auseinandersetzen.
 
-Die Blogs der Studierenden sind unter der Rubrik [Lerntagebücher](lerntagebucher.md) aufgeführt. Thematisch relevante Beiträge sind in den jeweiligen Kapiteln im Skript verlinkt.
+Die Blogs der Studierenden sind unter der Rubrik [Lerntagebücher](lerntagebuecher.md) aufgeführt. Thematisch relevante Beiträge sind in den jeweiligen Kapiteln im Skript verlinkt.
 
 ## Beschreibung
 
