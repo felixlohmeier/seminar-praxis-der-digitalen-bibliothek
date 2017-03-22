@@ -8,4 +8,6 @@ Bitte nehmen Sie sich für die folgenden Abschnitte insgesamt etwa 4 Stunden Zei
 
 Beiträge in den Lerntagebüchern der Studierenden:
 
+* Roman Berthold: [Erste LV](http://www.berthold.wp.hs-hannover.de/test/2017/03/18/erste-lv/)
 * Stefan Dombek: [1. Bericht zur Lehrveranstaltung vom 11.03.2017](http://bib14dombek.wp.hs-hannover.de/test/?p=142)
+* Peggy Semper: [...ein holpriger Start...](https://peggysemper.wordpress.com/2017/03/19/ein-holpriger-start/)
