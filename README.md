@@ -20,8 +20,6 @@ Dieses Skript entsteht in der Zeit von März bis Mai 2017 im Rahmen der folgende
 
 ## Inhalte
 
-Für jedes Kapitel sind etwa 4 Stunden Bearbeitungszeit eingeplant:
-
 Kapitel 1: Einführung ins Thema und Installation der Arbeitsumgebung
 * [1.1 Einführung in Discovery-Systeme in Bibliotheken](1-1-0-einfuehrung-in-discovery-systeme-in-bibliotheken.md)
 * [1.2 Open-Source-Software für Bibliothekskataloge](1-2-0-open-source-software-fuer-bibliothekskataloge.md)

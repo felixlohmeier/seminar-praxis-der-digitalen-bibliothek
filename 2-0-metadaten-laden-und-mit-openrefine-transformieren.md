@@ -1,6 +1,6 @@
 # Kapitel 2: Metadaten laden und mit OpenRefine transformieren
 
-Bitte nehmen Sie sich für die folgenden Abschnitte insgesamt etwa 4 Stunden Zeit:
+Bitte nehmen Sie sich für die folgenden Abschnitte insgesamt etwa 8 Stunden Zeit:
 
 * [2.1 Einführung in Metadatenformate und Schnittstellen](2-1-0-einfuehrung-in-metadatenformate-und-schnittstellen.md)
 * [2.2 Metadaten über eine Schnittstelle laden](2-2-0-metadaten-ueber-eine-Schnittstelle-laden.md)
