@@ -14,7 +14,9 @@ Im Ordner ```openrefine-linux-2.7-rc.2``` finden Sie jetzt das Programm OpenRefi
 
 ## OpenRefine starten
 
-```~/openrefine-linux-2.7-rc.2/refine```
+```
+~/openrefine-linux-2.7-rc.2/refine
+```
 
 Die Tilde (```~```) ist ein Kürzel für ihr Benutzerverzeichnis. Dieser Befehl funktioniert immer, egal in welchem Verzeichnis Sie sich gerade befinden. Wenn Sie sich im Ordner von OpenRefine befinden (```cd ~/openrefine-linux-2.7-rc.2```) reicht ein simples ```refine```
 
