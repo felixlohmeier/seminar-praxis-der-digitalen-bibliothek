@@ -11,5 +11,5 @@ Fragen:
 Inhalte:
 
 1. [Pro & Contra von Open Source](1-2-1-pro+contra-von-open-source.md)
-2. [Open Source Software zur Verarbeitung und Analyse von Metadaten](1-2-2-open-source-software-fuer-verarbeitung-von-metadaten.md) (Christensen 2014)
+2. [Open Source Software zur Verarbeitung und Analyse von Metadaten](1-2-2-open-source-software-fuer-verarbeitung-von-metadaten.md)
 3. [Auswahl der Software für das Seminar](1-2-3-auswahl-der-software-fuer-das-seminar.md)
