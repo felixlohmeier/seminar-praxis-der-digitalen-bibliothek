@@ -28,7 +28,9 @@ Kapitel 1: Einführung ins Thema und Installation der Arbeitsumgebung
 * [1.3 Grundinstallation der Arbeitsumgebung](1-3-0-grundinstallation-der-arbeitsumgebung.md)
 
 Kapitel 2: Metadaten laden und mit OpenRefine transformieren
-* ...
+* [2.1 Einführung in Metadatenformate und Schnittstellen](2-1-0-einfuehrung-in-metadatenformate-und-schnittstellen.md)
+* [2.2 Metadaten über eine Schnittstelle laden](2-2-0-metadaten-ueber-eine-Schnittstelle-laden.md)
+* [2.3 Metadaten transformieren mit OpenRefine](2-3-0-metadaten-transformieren-mit-openrefine.md)
 
 Kapitel 3: Transformierte Metadaten mit Solr indexieren
 * ...
