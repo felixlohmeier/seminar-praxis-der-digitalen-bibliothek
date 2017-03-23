@@ -14,4 +14,5 @@ Die öffentlichen Lerntagebücher haben zwei Ziele:
 * Peggy Semper: https://peggysemper.wordpress.com
 * Romy Stelter: https://digibibmadness.wordpress.com
 * Tabea Weinberg: https://gazelleauftour.wordpress.com
+* Ann Christin Wild: https://annelerntcomputer.wordpress.com/blog/
 * Lia-Marike Zimmermann: https://mysteriousdiscovery.wordpress.com

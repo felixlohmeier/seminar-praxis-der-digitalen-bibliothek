@@ -8,6 +8,11 @@ Bitte nehmen Sie sich für die folgenden Abschnitte insgesamt etwa 4 Stunden Zei
 
 Beiträge in den Lerntagebüchern der Studierenden:
 
+* Maren Berger: [Erste Schritte](https://derversuchweb.wordpress.com/2017/03/21/erster-blogbeitrag/)
 * Roman Berthold: [Erste LV](http://www.berthold.wp.hs-hannover.de/test/2017/03/18/erste-lv/)
 * Stefan Dombek: [1. Bericht zur Lehrveranstaltung vom 11.03.2017](http://bib14dombek.wp.hs-hannover.de/test/?p=142)
 * Peggy Semper: [...ein holpriger Start...](https://peggysemper.wordpress.com/2017/03/19/ein-holpriger-start/)
+* Romy Stelter: [Von Linux und Discovery-Systemen](https://digibibmadness.wordpress.com/2017/03/13/von-linux-und-discovery-systemen/)
+* Tabea Weinberg: [Erste Schritte: Es ist ein Start!](https://gazelleauftour.wordpress.com/2017/03/16/erste-schritte-es-ist-ein-start/)
+* Ann Christin Wild: [Aller Anfang ist ein Ladebildschirm](https://annelerntcomputer.wordpress.com/2017/03/22/aller-anfang-ist-ein-ladebildschirm/)
+* Lia-Marike Zimmermann: [Grundinstallation der Arbeitsumgebung](https://mysteriousdiscovery.wordpress.com/2017/03/16/grundinstallation-der-arbeitsumgebung/)
