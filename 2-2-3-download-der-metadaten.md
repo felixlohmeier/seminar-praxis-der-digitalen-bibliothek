@@ -236,7 +236,7 @@ Script als Datei: [sru-download.sh](scripte/sru-download.sh)
 
 **Ausführen:**
 
-* Script mit ```curl``` auf den Server laden: ```curl -O https://github.com/felixlohmeier/seminar-praxis-der-digitalen-bibliothek/raw/master/scripte/sru-download.sh```)
+* Script mit ```curl``` auf den Server laden: ```curl -O https://raw.githubusercontent.com/felixlohmeier/seminar-praxis-der-digitalen-bibliothek/master/scripte/sru-download.sh```
 * Script ausführbar machen: ```chmod +x sru-download.sh```
 * Script starten mit ```./sru-download.sh```
 

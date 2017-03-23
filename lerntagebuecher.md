@@ -8,6 +8,10 @@ Die öffentlichen Lerntagebücher haben zwei Ziele:
 
 ## Blogs der Studierenden
 
+* Maren Berger: https://derversuchweb.wordpress.com
 * Roman Berthold: http://www.berthold.wp.hs-hannover.de/test/
 * Stefan Dombek: http://bib14dombek.wp.hs-hannover.de/test/?page_id=13
 * Peggy Semper: https://peggysemper.wordpress.com
+* Romy Stelter: https://digibibmadness.wordpress.com
+* Tabea Weinberg: https://gazelleauftour.wordpress.com
+* Lia-Marike Zimmermann: https://mysteriousdiscovery.wordpress.com

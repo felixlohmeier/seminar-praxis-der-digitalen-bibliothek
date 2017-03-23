@@ -12,7 +12,7 @@ Hinweise:
 
 ## Lösung
 
-* OpenRefine starten: {%s%}~/openrefine-linux-2.7-rc.2/refine{%ends%}
+* OpenRefine starten: {%s%}~/openrefine-2.7-rc.2/refine{%ends%}
 * Projekt erstellen: {%s%}Im Menüpunkt "Create Project" auf den Button "Durchsuchen" klicken und eine der MARCXML Dateien auswählen. Im nächsten Bildschirm unten links bei Parse data as "XML files" auswählen, dann im Vorschaubildschirm auf den Pfad record xmlns="http://www.loc.gov/MARC21/slim" klicken und dann oben rechts den Button "Create Project" drücken.{%ends%}
 
 Stören Sie sich nicht zu sehr an der zunächst unübersichtlichen Darstellung der Daten, das werden wir in den nächsten Übungen bereinigen.
