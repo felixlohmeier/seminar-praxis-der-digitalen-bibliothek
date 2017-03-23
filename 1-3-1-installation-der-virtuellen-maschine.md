@@ -29,5 +29,5 @@ Die Anleitung enthält die folgenden Abschnitte:
 * Schritt 6: Ubuntu MATE installieren ([ab Folie 46](https://de.slideshare.net/f.lohmeier/installation-einer-virtuellen-maschine-ubuntu-mate-1604-lts-auf-usbstick-mit-virtualbox-unter-windows/46))
 * Schritt 7: System aktualisieren ([ab Folie 68](https://de.slideshare.net/f.lohmeier/installation-einer-virtuellen-maschine-ubuntu-mate-1604-lts-auf-usbstick-mit-virtualbox-unter-windows/68))
 * Schritt 8: VirtualBox Gasterweiterungen installieren ([ab Folie 75](https://de.slideshare.net/f.lohmeier/installation-einer-virtuellen-maschine-ubuntu-mate-1604-lts-auf-usbstick-mit-virtualbox-unter-windows/75))
-* Schritt 9: Virtuelle Maschine beenden ([ab Folie 87](https://de.slideshare.net/f.lohmeier/installation-einer-virtuellen-maschine-ubuntu-mate-1604-lts-auf-usbstick-mit-virtualbox-unter-windows/87))
-* Optional: Virtuelle Maschine an anderen Computern einsetzen ([ab Folie 94](https://de.slideshare.net/f.lohmeier/installation-einer-virtuellen-maschine-ubuntu-mate-1604-lts-auf-usbstick-mit-virtualbox-unter-windows/94))
+* Schritt 9: Virtuelle Maschine beenden ([ab Folie 89](https://de.slideshare.net/f.lohmeier/installation-einer-virtuellen-maschine-ubuntu-mate-1604-lts-auf-usbstick-mit-virtualbox-unter-windows/89))
+* Optional: Virtuelle Maschine an anderen Computern einsetzen ([ab Folie 96](https://de.slideshare.net/f.lohmeier/installation-einer-virtuellen-maschine-ubuntu-mate-1604-lts-auf-usbstick-mit-virtualbox-unter-windows/96))

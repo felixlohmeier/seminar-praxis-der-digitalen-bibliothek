@@ -240,28 +240,6 @@ Script als Datei: [sru-download.sh](scripte/sru-download.sh)
 * Script ausführbar machen: ```chmod +x sru-download.sh```
 * Script starten mit ```./sru-download.sh```
 
-## Aufgabe 5: Grobe Prüfung der heruntergeladenen Dateien
+Das Script benötigt für einen Komplettdurchlauf etwa 6 Stunden. Sie werden also bestimmt nicht jede Transaktion aufmerksam am Bildschirm verfolgen können. Daher erfolgen am Ende ein paar Prüfungen auf Plausibilität. Es kommt beispielsweise ab und zu vor, dass die SRU-Schnittstelle kurzzeitig nicht erreichbar ist. Wenn eine Datei weniger als 10 Records enthält, dann sollten Sie diese manuell prüfen.
 
-Das Script benötigt für einen Komplettdurchlauf etwa 6 Stunden. Sie werden also bestimmt nicht jede Transaktion aufmerksam am Bildschirm verfolgt haben. So oder so ist es sinnvoll mit ein paar Tests die Plausibilität der heruntergeladenen Dateien zu prüfen. Bitte beantworten Sie folgende Fragen:
-
-1. Wie groß sind a) alle heruntergeladenen Dateien und b) die kleinste(n) der Dateien? Gibt es c) Auffälligkeiten bei den Dateigrößen?
-2. Wieviele Records wurden heruntergeladen? (Tipp: nutzen Sie dazu das Feld bzw. den Pfad ```<controlfield tag="001">```)
-3. Gibt es Dubletten? Wenn ja, a) welche, b) wieviele und c) wo?
-
-## Lösung
-
-Wechseln Sie in das Verzeichnis download mit ```cd download```
-
-(1) Prüfung Dateigrößen:
-* a) alle: {%s%}du -a -h{%ends%}
-* b) die kleinste(n): {%s%}ls -1 -s -S{%ends%}
-* c) Auffälligkeiten: {%s%}achten Sie auf kleine und gleiche Dateigrößen, ebenfalls mit ls -1 -s -S{%ends%}
-
-(2) Prüfung Anzahl Records:
-* alle: ```grep -h "<controlfield tag=\"001\">" *.marcxml | wc -l```
-* ohne Dubletten: ```grep -h "<controlfield tag=\"001\">" *.marcxml | sed 's/<[^>]*>//g; s/^ *//' | uniq | wc -l```
-
-(3) Dubletten ausgeben:
-* a) welche: ```grep -h "<controlfield tag=\"001\">" *.marcxml | sed 's/<[^>]*>//g; s/^ *//' | uniq -D```
-* b) wieviele: ```grep -h "<controlfield tag=\"001\">" *.marcxml | sed 's/<[^>]*>//g; s/^ *//' | uniq -c -d```
-* c) wo: ```grep -h "<controlfield tag=\"001\">" *.marcxml | sed 's/<[^>]*>//g; s/^ *//' | uniq -D | grep -f - *```
+Fehlende Records nachzuladen, ist leider nicht so leicht. Wenn die Datenbank zwischenzeitlich verändert wurde, dann ergibt sich eine andere Sortierung für unsere Suchanfrage und somit ist es nicht mehr möglich, genau den betreffenden Abschnitt nachzuladen. Für diesen Prototypen empfiehlt es sich daher fehlerhafte Dateien schlicht zu löschen und damit auf einzelne Datensätze zu verzichten.
