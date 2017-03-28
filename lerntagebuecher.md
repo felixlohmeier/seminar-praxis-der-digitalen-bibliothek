@@ -11,9 +11,11 @@ Die öffentlichen Lerntagebücher haben zwei Ziele:
 * Maren Berger: https://derversuchweb.wordpress.com
 * Roman Berthold: http://www.berthold.wp.hs-hannover.de/test/
 * Stefan Dombek: http://bib14dombek.wp.hs-hannover.de/test/?page_id=13
+* Jan Jäger: http://jaegerja.wp.hs-hannover.de/wordpress/author/jaegerja
 * Carolin Marx: https://somebib.wordpress.com
 * Peggy Semper: https://peggysemper.wordpress.com
 * Romy Stelter: https://digibibmadness.wordpress.com
 * Tabea Weinberg: https://gazelleauftour.wordpress.com
+* Jennifer Wiegand: http://jaegerja.wp.hs-hannover.de/wordpress/author/wiegandj
 * Ann Christin Wild: https://annelerntcomputer.wordpress.com/blog/
 * Lia-Marike Zimmermann: https://mysteriousdiscovery.wordpress.com
