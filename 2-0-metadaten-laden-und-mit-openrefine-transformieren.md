@@ -9,4 +9,5 @@ Bitte nehmen Sie sich für die folgenden Abschnitte insgesamt etwa 8 Stunden Zei
 Beiträge in den Lerntagebüchern der Studierenden:
 
 * Peggy Semper: [2. Vorlesung](https://peggysemper.wordpress.com/2017/03/28/2-vorlesung/)
+* Romy Stelter: [Von Kommandozeilen und Metadaten](https://digibibmadness.wordpress.com/2017/04/01/von-kommandozeilen-und-metadaten/)
 * Jennifer Wiegand: [DAY TWO](http://jaegerja.wp.hs-hannover.de/wordpress/2017/03/28/day-two/)
