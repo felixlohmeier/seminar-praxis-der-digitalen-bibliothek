@@ -35,8 +35,8 @@ Schritt 4: MARC-Feld mit Feld MARC-Code zusammenfassen
 Schritt 5: Sortieren und Aufräumen
 
 * Spalte "PPN" / Edit cells / Fill down
-* Spalte "PPN" / Sort...
-* Spalte "record - datafield - tag" / Sort...
+* Spalte "PPN" / Sort... / OK
+* Spalte "record - datafield - tag" / Sort... / OK
 * Im neu verfügbaren Menü "Sort" den Menüpunkt "Reorder rows permanently" auswählen
 * Spalte "PPN" / Edit column / Remove this column
 
@@ -47,7 +47,7 @@ Schritt 6: Felder mit Mehrfachbelegungen zusammenführen
 
 Schritt 7: Transpose
 
-* Spalte "record - datafield - tag" / Transpose / Columnize by key/value columns...
+* Spalte "record - datafield - tag" / Transpose / Columnize by key/value columns... / OK
 
 ## Literatur zu den genutzten Funktionen
 

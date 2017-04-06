@@ -31,10 +31,12 @@ Kapitel 2: Metadaten laden und mit OpenRefine transformieren
 * [2.3 Metadaten transformieren mit OpenRefine](2-3-0-metadaten-transformieren-mit-openrefine.md)
 
 Kapitel 3: Transformierte Metadaten mit Solr indexieren
-* ...
+* [3.1 Daten mit OpenRefine für Indexierung vorbereiten](3-1-0-daten-mit-openrefine-fuer-indexierung-vorbereiten.md)
+* [3.2 Suchmaschinenindex Solr](3-2-0-suchmaschinenindex-solr.md)
 
 Kapitel 4: Prototyp eines Katalogs mit TYPO3-find bauen
-* ...
+* [4.1 Katalogoberfläche TYPO3-find](4-1-0-katalogoberflaeche-typo3-find.md)
+* [4.2 Zwischenfazit](4-2-0-zwischenfazit.md)
 
 Kapitel 5: Erweiterungsmöglichkeiten
 * ...

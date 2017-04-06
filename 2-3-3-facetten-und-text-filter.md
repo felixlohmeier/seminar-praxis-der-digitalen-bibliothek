@@ -10,9 +10,3 @@ Hinweise:
 * Schauen Sie sich die Einführungsvideos zu OpenRefine an, insbesondere die ca. [7-Minuten-Kurzeinführung bei YouTube](https://www.youtube.com/watch?v=B70J_H_zAWM)
 * Konsultieren Sie die [Seite zur Facettierung in der Dokumentation von OpenRefine](https://github.com/OpenRefine/OpenRefine/wiki/Faceting) und probieren Sie verschiedene Facetten aus.
 * Gute Übungen zum Einstieg bietet auch Library Carpentry OpenRefine: [Basic OpenRefine Functions I: Working with columns, sorting, faceting, filtering and clustering](https://data-lessons.github.io/library-openrefine/03-basic-functions-I/)
-
-## Bonusaufgabe: Laden Sie die Arbeitstabelle der DNB in OpenRefine
-
-Die Dokumentation der DNB steht auch als Tabellendokument zur Verfügung. Da OpenRefine auf die Bearbeitung von tabellarischen Daten ausgelegt ist, können Sie die Arbeitstabelle anstatt in Excel/LibreOffice auch gleich in OpenRefine als neues Projekt anlegen.
-
-[Arbeitstabelle der Deutschen Nationalbibliothek](http://www.dnb.de/SharedDocs/Downloads/DE/DNB/standardisierung/marc21FeldbeschreibungTitelExcel032016.zip)
