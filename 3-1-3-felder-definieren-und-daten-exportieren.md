@@ -17,7 +17,7 @@ Hinweise:
 * {%s%}New column name: Titel{%ends%}
 * {%s%}Expression: value + if(isNonBlank(cells["245 : b"].value),". ","") + if(isNonBlank(cells["245 : b"].value),cells["245 : b"].value,"") + if(isNonBlank(cells["245 : n"].value)," - ","") + if(isNonBlank(cells["245 : n"].value),cells["245 : n"].value,"") + if(isNonBlank(cells["245 : p"].value)," - ","") + if(isNonBlank(cells["245 : p"].value),cells["245 : p"].value,"") + if(isNonBlank(cells["246 : a"].value)," - ","") + if(isNonBlank(cells["246 : a"].value),cells["246 : a"].value,""){%ends%}
 
-** Als JSON-Datei: [3-1-3-1.json](3-1-3-1.json)**
+** Als JSON-Datei: [3-1-3-1.json](openrefine/3-1-3-1.json)**
 
 
 ## Aufgabe 2: Löschen Sie alle Datensätze, in denen das Feld "Titel" nicht belegt ist
@@ -33,7 +33,7 @@ Hinweise:
 * {%s%}All / Edit rows / Remove all matching rows{%ends%}
 * {%s%}Facette schließen{%ends%}
 
-** Als JSON-Datei: [3-1-3-2.json](3-1-3-2.json)**
+** Als JSON-Datei: [3-1-3-2.json](openrefine/3-1-3-2.json)**
 
 
 ## Aufgabe 3: Generieren Sie einheitliche ISBN-Nummern mit 13 Ziffern
@@ -57,7 +57,7 @@ Hinweise:
 
 Anmerkung: Alle Sonderfälle, in denen noch Text hinter den ISBN-Nummern steht, sind mit diesen Transformationsregeln noch nicht behandelt. Dafür liegt aber zumindest für einen Teil der Datensätze eine einheitliche ISBN13-Kodierung vor.
 
-** Als JSON-Datei: [3-1-3-3.json](3-1-3-3.json)**
+** Als JSON-Datei: [3-1-3-3.json](openrefine/3-1-3-3.json)**
 
 
 ## Aufgabe 4: Ergänzen Sie ein Feld "id" für den Suchindex
@@ -68,7 +68,7 @@ Der Suchindex Solr erwartet ein Feld "id" mit eindeutiger Kennung in der ersten 
 
 * {%s%}Spalte "001" /  Edit column / Add column based on this column... / New column name: id{%ends%}
 
-** Als JSON-Datei: [3-1-3-4.json](3-1-3-4.json)**
+** Als JSON-Datei: [3-1-3-4.json](openrefine/3-1-3-4.json)**
 
 
 ## Aufgabe 5: Wenden Sie die vorbereitete Transformationsdatei zur Generierung weiterer Felder an
@@ -76,7 +76,7 @@ Der Suchindex Solr erwartet ein Feld "id" mit eindeutiger Kennung in der ersten 
 Das identifizieren wichtiger Felder wie Titel, Urheber, Ort, Erscheinungsjahr, Medientyp in den MARC-Daten ist mühsam und sprengt den Rahmen dieses Seminars. Ich habe daher eine Transformationsdatei erstellt, die Regeln zur Generierung weiterer Felder enthält. Diese unvollständige Empfehlung bildet auch die Grundlage für die folgenden Aufgaben. Diese haben nicht zum Ziel ein perfektes Mapping zu erstellen, sondern sollen ein paar Problemfelder illustrieren und sinnvolle Beispieldaten für den Suchindex (Kapitel 8) und die Kataloganzeige (Kapitel 9) bilden.
 
 Hinweise:
-* Verwenden Sie die **JSON-Datei ** Als JSON-Datei: [3-1-3-5.json](3-1-3-5.json)****
+* Verwenden Sie die **JSON-Datei ** Als JSON-Datei: [3-1-3-5.json](openrefine/3-1-3-5.json)****
 
 ## Lösung
 
@@ -91,7 +91,7 @@ OpenRefine bietet viele Möglichkeiten die Daten in verschiedene Formate zu expo
 * Alle Spalten löschen außer diejenigen, die in Kapitel 7.6 angelegt wurden: id, ISBN, ISSN, Sprache, LCC, DDC, Urheber, Medientyp, Ort, Verlag, Jahr, Datum, Beschreibung, Schlagwoerter, Beitragende, Reihe, Vorgaenger, Nachfolger, Link, Titel
 * Export / Tab-separated value
 
-** Als JSON-Datei: ** Als JSON-Datei: [3-1-3-6.json](3-1-3-6.json)****
+** Als JSON-Datei: [3-1-3-6.json](openrefine/3-1-3-6.json)****
 
 Zur Prüfung der exportierten Datei können Sie ```csvstat``` verwenden (vgl. [Kapitel 3.1.2, Schritt 2](3-1-2-alle-daten-automatisiert-verarbeiten.md)).
 
