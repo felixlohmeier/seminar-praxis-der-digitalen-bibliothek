@@ -120,10 +120,13 @@ Wir generieren die Konfigurationsdatei mit der Templating-Funktion von OpenRefin
 * Geben Sie folgendes in die Felder ein...
 
 Prefix:
+...
 
 Row Template:
+...
 
 Suffix:
+...
 
 Klicken Sie auf Export und speichern Sie die Datei im selben Ordner, in dem auch das Script openrefine-batch.sh liegt.
 
@@ -161,6 +164,6 @@ Erstellen Sie ein neues Projekt und laden Sie die im vorigen Schritt erstellten 
 * Projektnamen vergeben (z.B. "hsh-ksf" und Button "Create Project" drücken
 
 Wenden Sie die Transformationsdatei aus dem vorigen Schritt noch einmal an, damit die Spalten erneut und abschließend alphabetisch sortiert werden.
-* Menü oben links "Undo / Redo" aufrufen und Button "Apply..." drücken. Den Inhalt aus der Datei [3-1-2_minimal.json](openrefine/3-1-2_minimal.json) in die Zwischenablage kopieren und in das Textfeld von "Apply" einfügen und Button "Perform Operations" drücken.{%ends%}
+* Menü oben links "Undo / Redo" aufrufen und Button "Apply..." drücken. Den Inhalt aus der Datei [3-1-2_minimal.json](openrefine/3-1-2_minimal.json) in die Zwischenablage kopieren und in das Textfeld von "Apply" einfügen und Button "Perform Operations" drücken.
 
 Damit haben Sie nun endlich alle Daten in einem einzelnen Projekt und die Spalten alphabetisch sortiert. Das ist die Grundlage, auf der das nächste Kapitel aufsetzt.
