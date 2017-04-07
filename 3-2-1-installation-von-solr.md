@@ -5,7 +5,6 @@
 * Geben Sie im Terminal folgende Befehle ein:
 
 ```
-java -version
 wget http://archive.apache.org/dist/lucene/solr/6.5.0/solr-6.5.0.tgz
 tar zxf solr-6.5.0.tgz
 ```
