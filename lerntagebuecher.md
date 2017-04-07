@@ -18,6 +18,7 @@ Die öffentlichen Lerntagebücher haben zwei Ziele:
 * Carolin Marx: https://somebib.wordpress.com
 * Peggy Semper: https://peggysemper.wordpress.com
 * Melf Sorgenfrei: http://melfspace.wp.hs-hannover.de/test/
+* Hanna Steinmeyer: https://digibibblog.wordpress.com
 * Romy Stelter: https://digibibmadness.wordpress.com
 * Iris Tannhäuser: https://digibibsite.wordpress.com
 * Tabea Weinberg: https://gazelleauftour.wordpress.com

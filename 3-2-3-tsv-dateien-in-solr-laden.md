@@ -2,7 +2,7 @@
 
 ## Konfiguration neu einlesen
 
-* Menü "Core Admin" http://localhost:8983/solr/#/~cores/gettingstarted
+* Menü "Core Admin" aufrufen: http://localhost:8983/solr/#/~cores/gettingstarted
 * Button "Reload" drücken
 
 ## Index leeren (im Terminal)
@@ -23,15 +23,14 @@ curl "http://localhost:8983/solr/gettingstarted/update/csv?commit=true&separator
 
 ## Prüfen Sie das Ergebnis
 
-Rufen Sie die Browsing-Oberfläche auf (http://localhost:8983/solr/gettingstarted/browse). Es sollten über 200.000 Dokumente gefunden werden. Machen Sie ein paar Beispielsuchen, um sicherzugehen, dass die Daten richtig indexiert wurden.
+Rufen Sie die Browsing-Oberfläche auf (http://localhost:8983/solr/gettingstarted/browse). Es sollten etwa 360.000 Dokumente gefunden werden. Machen Sie ein paar Beispielsuchen, um sicherzugehen, dass die Daten richtig indexiert wurden.
 
 ## Solr beenden und starten
 
-Solr wurde als Prozess gestartet, der bis zum nächsten Neustart des Rechners weiterlaufen sollte. Sie können Solr jederzeit manuell beenden und starten. Vor der Ausführung der Befehle müssen Sie in das Verzeichnis von Solr wechseln.
+Solr wurde als Prozess gestartet, der bis zum nächsten Neustart des Rechners weiterläuft. Sie können Solr jederzeit manuell beenden und starten:
 
-* In Verzeichnis wechseln: ```cd ~/solr-6.5.0```
-* Solr beenden:```bin/solr stop```
-* Solr starten:```bin/solr start```
+* Solr beenden:```~/solr-6.5.0/bin/solr stop```
+* Solr starten:```~/solr-6.5.0/bin/solr start```
 
 Etwa 15-30 Sekunden nach dem Startbefehl sollte die Administrations- und die Browsingoberfläche unter den gewohnten Adressen erreichbar sein.
 

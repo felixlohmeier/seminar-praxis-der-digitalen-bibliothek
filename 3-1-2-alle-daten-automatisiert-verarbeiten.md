@@ -166,10 +166,16 @@ wget https://github.com/felixlohmeier/seminar-praxis-der-digitalen-bibliothek/ra
 
 OpenRefine führt unterschiedliche Datenstrukturen sinnvoll zusammen. Wenn die Dateien unterschiedlich viele Spalten oder eine andere Reihenfolge der Spalten haben, so ist das kein Problem. OpenRefine nimmt alle Spalten der ersten Datei auf und belegt diese mit neuen Zeilen. Sobald in einer weiteren Datei eine neue Spalte auftaucht, die OpenRefine noch nicht bekannt ist, so wird diese hinten angehängt.
 
-Für das Laden der gesamten rund 580.000 Datensätze werden etwa 5 GB freier Arbeitsspeicher benötigt. Starten Sie OpenRefine mit dem zusätzlichen Parameter ```-m 5G```, damit OpenRefine über mehr Speicher verfügen kann. Sollten Sie auf Ihrer virtuellen Maschine nicht über genügend freien Arbeitsspeicher verfügen, dann reduzieren Sie den Wert im Parameter ```-m``` und laden Sie nur einen Teil der Daten.
+Für das Laden der gesamten rund 580.000 Datensätze werden etwa 5 GB freier Arbeitsspeicher benötigt. Starten Sie OpenRefine mit dem zusätzlichen Parameter ```-m 5G```, damit OpenRefine über mehr Speicher verfügen kann.
+
 ```
 ~/openrefine-2.7-rc.2/refine -m 5G
 ```
+
+Sollten Sie auf Ihrer virtuellen Maschine nicht über genügend freien Arbeitsspeicher verfügen, dann reduzieren Sie den Wert im Parameter ```-m``` und laden Sie nur einen Teil der Daten.
+
+* OpenRefine beenden und alle Fenster schließen. Freien Arbeitsspeicher mit ```free -m``` anzeigen und Wert in Zeile "-/+ buffers/cache" in Spalte "free" notieren und auf Gigabyte abrunden.
+* Zahl bei -m 3G im Startbefehl anpassen. Beispiel für 1 GB freien Arbeitsspeicher: -m 1G
 
 Erstellen Sie ein neues Projekt und laden Sie die im vorigen Schritt erstellten TSV-Dateien aus dem Ordner ```output``` hoch.
 * Create Project / Durchsuchen... / TSV Dateien auswählen / Next / Configure Parsing Options
