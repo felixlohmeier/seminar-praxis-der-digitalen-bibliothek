@@ -44,8 +44,9 @@ Geben Sie folgende Befehle ins Terminal ein, um die neueste Version von TYPO3 7 
 
 ```
 cd /var/www/
-sudo wget get.typo3.org/8 --content-disposition
-sudo tar xzf typo3_src-8*
+sudo wget get.typo3.org/7 --content-disposition
+sudo tar xzf typo3_src-7*
+sudo rm -f typo3_src-7*.tar.gz
 sudo chown root:www-data -R html
 sudo chmod 775 html
 cd html

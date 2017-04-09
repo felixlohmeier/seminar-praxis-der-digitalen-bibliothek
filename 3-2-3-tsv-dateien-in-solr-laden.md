@@ -30,7 +30,7 @@ Rufen Sie die Browsing-Oberfläche auf (http://localhost:8983/solr/gettingstarte
 Solr wurde als Prozess gestartet, der bis zum nächsten Neustart des Rechners weiterläuft. Sie können Solr jederzeit manuell beenden und starten:
 
 * Solr beenden:```~/solr-6.5.0/bin/solr stop```
-* Solr starten:```~/solr-6.5.0/bin/solr start```
+* Solr starten:```~/solr-6.5.0/bin/solr start -s /solr-6.5.0/example/schemaless/solr```
 
 Etwa 15-30 Sekunden nach dem Startbefehl sollte die Administrations- und die Browsingoberfläche unter den gewohnten Adressen erreichbar sein.
 

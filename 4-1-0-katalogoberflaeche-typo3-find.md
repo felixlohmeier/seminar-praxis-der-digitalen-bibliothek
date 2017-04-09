@@ -1,4 +1,4 @@
-# 4.1.0 Katalogoberfläche TYPO3-find
+# 4.1 Katalogoberfläche TYPO3-find
 
 Ziel: In diesem Kapitel fügt sich das Puzzle zusammen. Wir haben mit OpenRefine die Daten transformiert und als TSV-Dateien gespeichert. Mit dem Suchindex Solr haben wir die TSV-Dateien indexiert. Nun installieren wir die Katalogoberfläche TYPO3-find, um die Daten aus dem Suchindex auf einer Webseite für die NutzerInnen zur Verfügung zu stellen.
 

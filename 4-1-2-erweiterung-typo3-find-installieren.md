@@ -1,6 +1,6 @@
 # 4.1.2 Erweiterung TYPO3-find installieren
 
-Normalerweise können Erweiterungen für TYPO3 ganz einfach über die Administrationsoberfläche installiert werden, so wie bei einem App Store. Die EntwicklerInnen legen ihre Erweiterungen dazu im offiziellen TYPO3 Extension Repository ab. Leider ist zum Zeitpunkt der Erstellung des Skripts (April 2017) von der Erweiterung TYPO3-find nur eine uralte Version im Extension Repository verfügbar. Dort liegt Version 1.0.1 (Nov 2013), während bei GitHub Version 3.1.1 (Jan 2017) zur Verfügung steht.
+Normalerweise können Erweiterungen für TYPO3 ganz einfach über die Administrationsoberfläche installiert werden, so wie bei einem App Store. Die EntwicklerInnen legen ihre Erweiterungen dazu im offiziellen TYPO3 Extension Repository ab. Leider ist zum Zeitpunkt der Erstellung des Skripts (April 2017) von der Erweiterung TYPO3-find nur eine uralte Version im Extension Repository verfügbar. Dort liegt Version 1.0.1 (Nov 2013), während bei GitHub Version 3.0.0 (Jan 2017) zur Verfügung steht.
 
 ## Schritt 1: Installation von TYPO3-find aus Quellcode bei GitHub
 
@@ -10,9 +10,9 @@ Wir installieren den Code aus dem GitHub-Repository https://github.com/subugoe/t
 
 ```
 cd ~
-wget https://github.com/subugoe/typo3-find/archive/master.zip
-unzip master.zip
-cd typo3-find-master
+wget https://github.com/subugoe/typo3-find/archive/3.0.0.zip
+unzip 3.0.0.zip
+cd typo3-find-3.0.0
 ```
 
 ### 1.2 Abhängigkeiten der TYPO3-Erweiterung mit Composer nachladen
@@ -29,10 +29,8 @@ php composer.phar install
 
 ```
 sudo mkdir /var/www/html/typo3/ext
-sudo mkdir /var/www/html/typo3/ext/find
 sudo cp -r . /var/www/html/typo3/ext/find
-sudo chown :www-data -R /var/www/html/typo3/ext
-sudo chmod 775 ext
+sudo chown www-data:www-data /var/www/html/typo3/ext/find
 ```
 
 ## Schritt 2: Extension in Administrationsoberfläche aktivieren
@@ -46,8 +44,9 @@ Login in Administrationsoberfläche unter http://localhost/typo3 (localhost durc
 ### 2.2 Menü Page
 
 * Seite auswählen, auf welcher der Katalog eingefügt werden soll, hier ```Congratulations``` (Startseite)
-* Folgende Kästen löschen (Mülleimer-Symbol): "Start browsing", "Example Pages", "Test the CMS", "Divider", "Make it your own"
-* Button +Content in Spalte "Normal" drücken und im Reiter ```Plugins / General Plugin``` unten auf der Seite im Punkt ```Selected Plugin``` die Erweiterung ```Find``` auswählen und anschließend oben den Save-Button betätigen.
+* Folgende Kästen löschen (Mülleimer-Symbol): "Start browsing", "Example Pages", "Test the CMS", "Make it your own"
+* Button +Content in Spalte "Normal" drücken und im Reiter ```Plugins / General Plugin``` auswählen
+* Im Reiter Plugin unter ```Selected Plugin``` die Erweiterung ```Find``` auswählen, die Abfrage mit OK bestätigen und anschließend oben den Save-Button betätigen.
 
 ### 2.3 Menü Template
 
