@@ -1,63 +1,33 @@
 # 4.1.2 Erweiterung TYPO3-find installieren
 
-Normalerweise können Erweiterungen für TYPO3 ganz einfach über die Administrationsoberfläche installiert werden, so wie bei einem App Store. Die EntwicklerInnen legen ihre Erweiterungen dazu im offiziellen TYPO3 Extension Repository ab. Leider ist zum Zeitpunkt der Erstellung des Skripts (April 2017) von der Erweiterung TYPO3-find nur eine uralte Version im Extension Repository verfügbar. Dort liegt Version 1.0.1 (Nov 2013), während bei GitHub Version 3.0.0 (Jan 2017) zur Verfügung steht.
-
-## Schritt 1: Installation von TYPO3-find aus Quellcode bei GitHub
-
-Wir installieren den Code aus dem GitHub-Repository https://github.com/subugoe/typo3-find
-
-### 1.1 Code aus GitHub Repository herunterladen
-
+Bevor wir die Erweiterung TYPO3-find installieren und konfigurieren, starten wir zunächst erneut den Suchindex Solr (vgl. Kapitel 3.2.3):
 ```
-cd ~
-wget https://github.com/subugoe/typo3-find/archive/3.0.0.zip
-unzip 3.0.0.zip
-cd typo3-find-3.0.0
+~/solr-6.5.0/bin/solr start -s ~/solr-6.5.0/example/schemaless/solr
 ```
 
-### 1.2 Abhängigkeiten der TYPO3-Erweiterung mit Composer nachladen
+Die Administrationsoberfläche von TYPO3 ist unter folgender URL verfügbar: http://localhost/typo3/.
 
-```
-php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
-php -r "if (hash_file('SHA384', 'composer-setup.php') === '669656bab3166a7aff8a7506b8cb2d1c292f042046c5a994c43155c0be6190fa0355160742ab2e1c88d40d5be660b410') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
-php composer-setup.php
-php -r "unlink('composer-setup.php');"
-php composer.phar install
-```
+## 1. Menü Extensions
 
-### 1.3 Daten in Extension-Verzeichnis kopieren
+* In der Liste neben dem Eintrag ```Find``` auf den Würfel klicken, um die Extension zu aktivieren
 
-```
-sudo mkdir /var/www/html/typo3/ext
-sudo cp -r . /var/www/html/typo3/ext/find
-sudo chown www-data:www-data /var/www/html/typo3/ext/find
-```
+## 2. Menü Page
 
-## Schritt 2: Extension in Administrationsoberfläche aktivieren
+* Seite ```Home``` auswählen
+* Button +Content in Spalte "Normal" drücken und im Reiter ```Plugins``` das Plugin ```TYPO3 Find``` auswählen
+* Oben den Save-Button betätigen.
 
-Login in Administrationsoberfläche unter http://localhost/typo3 (localhost durch IP-Adresse ersetzen)
-
-### 2.1 Menü Extensions
-
-* Neben Extension ```Find``` auf den Würfel klicken, um die Extension zu aktivieren
-
-### 2.2 Menü Page
-
-* Seite auswählen, auf welcher der Katalog eingefügt werden soll, hier ```Congratulations``` (Startseite)
-* Folgende Kästen löschen (Mülleimer-Symbol): "Start browsing", "Example Pages", "Test the CMS", "Make it your own"
-* Button +Content in Spalte "Normal" drücken und im Reiter ```Plugins / General Plugin``` auswählen
-* Im Reiter Plugin unter ```Selected Plugin``` die Erweiterung ```Find``` auswählen, die Abfrage mit OK bestätigen und anschließend oben den Save-Button betätigen.
-
-### 2.3 Menü Template
+## 3. Menü List
 
 * Gleiche Seite auswählen, auf der vorhin das Plugin eingefügt wurde (müsste noch vorausgewählt sein)
-* Im Pulldown oben ```Info/Modify``` auswählen
-* Button ```Edit the whole template record```
-* Reiter ```Includes```: Rechts bei ```available items``` die Option ```Find (find)``` anklicken
-* Oben den Save-Button betätigen
-* Reiter ```General```: In Textfeld ```Setup``` Folgendes einfügen
-
+* Das Template ```Main TypoScript Rendering``` bearbeiten
+* Reiter ```General```: In Textfeld ```Setup``` den vorhandenen Inhalt durch Folgendes ersetzen
 ```
+page = PAGE
+page.100 < styles.content.get
+page.javascriptLibs.jQuery = 1
+page.includeJS.find = EXT:find/Resources/Public/JavaScript/find.js
+plugin.tx_find.features.requireCHashArgumentForActionArguments = 0
 plugin.tx_find.settings {
         connections {
                 default {
@@ -86,3 +56,7 @@ plugin.tx_find.settings {
         }
 }
 ```
+* Reiter ```Includes```: Rechts bei ```available items``` das Item ```Find (find)``` anklicken.
+* Oben den Save-Button betätigen
+
+Rufen Sie anschließend die Webseite http://localhost auf. Der Katalog sollte erscheinen.

@@ -2,10 +2,10 @@
 
 Für Ubuntu gibt es derzeit kein Installationspaket, daher müssen wir die für TYPO3 benötigten Komponenten (Webserver, Datenbank, PHP) manuell installieren.
 
-## Benötigte Pakete (Apache, MySQL, PHP) installieren
+## Benötigte Pakete (Apache, MySQL, PHP, Composer) installieren
 
 ```
-sudo apt-get install apache2 libapache2-mod-php7.0 php7.0 php7.0-mysql mysql-server php-gd php-json php-imagick php-mbstring php-curl php-apcu php-soap php-xml php-zip
+sudo apt-get install apache2 libapache2-mod-php7.0 php7.0 php7.0-mysql mysql-server php-gd php-json php-imagick php-mbstring php-curl php-apcu php-soap php-xml php-zip composer
 ```
 
 Während der Installation müssen Sie ein Root-Passwort für MySQL vergeben. Denken Sie sich eins aus und notieren Sie dies.
@@ -38,23 +38,27 @@ Abschließend ist ein Neustart des Webservers erforderlich:
 sudo /etc/init.d/apache2 restart
 ```
 
-## TYPO3 installieren
+## TYPO3 mit Composer installieren
 
-Geben Sie folgende Befehle ins Terminal ein, um die neueste Version von TYPO3 7 zu installieren.
+Wir nutzen eine [Distribution von Cedric Ziel](https://github.com/cedricziel/typo3-find-distribution), die TYPO3 und die Erweiterung TYPO3-find beinhaltet. Die Installation erfolgt mit Hilfe des Tools Composer, das wir im ersten Schritt zusammen mit den anderen Paketen installiert haben.
+
+Geben Sie folgende Befehle ins Terminal ein:
 
 ```
 cd /var/www/
-sudo wget get.typo3.org/7 --content-disposition
-sudo tar xzf typo3_src-7*
-sudo rm -f typo3_src-7*.tar.gz
-sudo chown root:www-data -R html
-sudo chmod 775 html
-cd html
-sudo ln -s $(find .. -name typo3_* -type d) typo3_src
-sudo ln -s typo3_src/typo3 typo3
-sudo ln -s typo3_src/index.php index.php
-sudo rm index.html
-sudo touch FIRST_INSTALL
+sudo composer create-project cedricziel/typo3-find-distribution katalog dev-master
+cd katalog
+sudo chown www-data:www-data -R web
+sudo touch web/FIRST_INSTALL
+sudo sh -c 'echo "<VirtualHost *:80>
+        DocumentRoot /var/www/katalog/web
+        ServerName katalog
+        Options -Indexes
+        DirectoryIndex index.php index.html
+</VirtualHost>" > /etc/apache2/sites-available/katalog.conf'
+sudo a2ensite katalog.conf
+sudo a2dissite 000-default.conf
+sudo service apache2 reload
 ```
 
 ## Konfiguration von TYPO3 mit dem Installationsassistent
@@ -63,4 +67,4 @@ Nach der Installation erreichen Sie TYPO3 unter der Adresse http://localhost. Do
 * In Schritt 2 muss als Username ```typo3_db_user``` und das von Ihnen für den Nutzer typo3_db_user gesetzte Passwort (secretpassword) eingetragen werden.
 * In Schritt 3 wählen Sie "use an existing empty database"
 * In Schritt 4 müssen Sie einen weiteren Account anlegen, diesmal für die Administration von TYPO3. Notieren Sie sich Benutzername und Passwort.
-* Wählen Sie in Schritt 5 die Option ```Yes, download the list of distributions.``` und installieren Sie nach dem Login das Paket ```The official Introduction Package```
+* Wählen Sie in Schritt 5 die Option ```Yes, create a base empty page to start from.```

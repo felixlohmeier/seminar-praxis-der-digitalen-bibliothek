@@ -1,6 +1,6 @@
 # 4.1.3 TYPO3-find anpassen
 
-Über die Setup-Datei (vgl. den letzten Schritt aus Kapitel 9.3) kann die Erweiterung TYPO3-find konfiguriert werden.
+Über das Template im Textfeld ```Setup``` (vgl. den letzten Schritt aus dem vorigen Kapitel) kann TYPO3-find konfiguriert werden.
 
 ## Aufgabe: Ergänzen Sie eine weitere Facette
 
@@ -51,4 +51,6 @@ plugin.tx_find.settings {
 
 ## Bonus: Darstellung der Trefferliste und Detailseite anpassen
 
-Für die Anpassung der Detailseiten müssen gemäß der Dokumentation von TYPO3-find die Dateien ```Result.html``` und ```Detail.html``` im Ordner ```Resources/Private/Partials/Display/``` bearbeitet werden.
+Für die Anpassung der Detailseiten müssen gemäß der Dokumentation von TYPO3-find die Dateien ```Result.html``` und ```Detail.html``` im Ordner ```Resources/Private/Partials/Display/``` der Extension bearbeitet werden.
+
+Die Dateien liegen bei unserer Installation im Ordner ```/var/www/katalog/web/typo3conf/ext/find/Resources/Private/Partials/Display```.

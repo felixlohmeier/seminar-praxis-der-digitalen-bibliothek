@@ -2,7 +2,7 @@
 
 Ziel: ...
 
-Bitte nehmen Sie sich für die folgenden Abschnitte insgesamt etwa 4 Stunden Zeit:
+Bitte nehmen Sie sich für die folgenden Abschnitte insgesamt etwa 8 Stunden Zeit:
 
 * [...]()
 * [...]()
