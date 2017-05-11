@@ -7,17 +7,17 @@ Bevor wir die Erweiterung TYPO3-find installieren und konfigurieren, starten wir
 
 Die Administrationsoberfläche von TYPO3 ist unter folgender URL verfügbar: http://localhost/typo3/.
 
-## 1. Menü Extensions
+## Menü Extensions
 
 * In der Liste neben dem Eintrag ```Find``` auf den Würfel klicken, um die Extension zu aktivieren
 
-## 2. Menü Page
+## Menü Page
 
 * Seite ```Home``` auswählen
 * Button +Content in Spalte "Normal" drücken und im Reiter ```Plugins``` das Plugin ```TYPO3 Find``` auswählen
 * Oben den Save-Button betätigen.
 
-## 3. Menü List
+## Menü List
 
 * Gleiche Seite auswählen, auf der vorhin das Plugin eingefügt wurde (müsste noch vorausgewählt sein)
 * Das Template ```Main TypoScript Rendering``` bearbeiten
