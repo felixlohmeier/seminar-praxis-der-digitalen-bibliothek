@@ -16,7 +16,7 @@ Beispiel "European Commission Funded Research (OpenAIRE)":
 
 Es gibt sehr viele Clients, um OAI-Schnittstellen abzufragen. VuFind hat beispielsweise einen umfangreichen [OAI-Harvester](https://github.com/vufind-org/vufindharvest) integriert, der auch eigenständig benutzt werden kann. Wir nutzen für diese Aufgabe einen schlanken kommandozeilenbasierten Client, der in Python geschrieben wurde: https://github.com/bloomonkey/oai-harvest. Der Entwickler heißt John Harrison und arbeitet an der Universität von Liverpool.
 
-### 1.1 Installation:
+### 1.1 Installation
 
 ```
 sudo apt-get install sqlite3 python3-pip
@@ -24,7 +24,7 @@ sudo python3 -m pip install git+https://github.com/infrae/pyoai.git
 sudo python3 -m pip install git+http://github.com/bloomonkey/oai-harvest.git#egg=oaiharvest
 ```
 
-### 1.2 Download:
+### 1.2 Download
 
 ```
 mkdir zenodo
@@ -51,7 +51,9 @@ zip -r zenodo.zip zenodo
 
 Zip-Datei hochladen und bei der Auswahl des Pfads auf die erste Zeile (<oai_dc...>) klicken
 
-### 2.3 Spalten umbenennen, damit Sie auf die Felder im Schema des Suchindex passen (z.B. "oai_dc:dc - dc:title" in "Titel" umbenennen). Dabei müssen Sie Bezeichnungen verwenden, die im Schema vorhanden sind:
+### 2.3 Spalten umbenennen
+
+Die Spalten müssen umbenannt werden, so dass sie auf Felder im Schema des Suchindex passen (z.B. "oai_dc:dc - dc:title" in "Titel" umbenennen). Im Schema haben wir unter anderem folgende Bezeichnungen verwendet:
 
 * Titel
 * Urheber
@@ -107,7 +109,7 @@ Vollständiger Befehl für Beispiel Titel:
 curl "http://localhost:8983/solr/gettingstarted/update/csv?commit=true&separator=%09&f.Titel.split=true&f.Titel.separator=%E2%90%9F" --data-binary @test.tsv -H 'Content-type:text/plain; charset=utf-8'
 ```
 
-## 3.3 TYPO3 Ergebnis prüfen
+## 3.3 Ergebnis prüfen
 
 http://localhost in der virtuellen Maschine aufrufen, um den Katalog anzuzeigen
 
