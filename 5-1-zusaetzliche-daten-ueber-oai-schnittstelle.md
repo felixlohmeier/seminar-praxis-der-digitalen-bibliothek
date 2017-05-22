@@ -31,7 +31,9 @@ mkdir zenodo
 oai-harvest https://zenodo.org/oai2d -s user-ecfunded -p oai_dc -d zenodo
 ```
 
-### 1.3 Die Dateien sollten nun im "Persönlichen Ordner" im Unterverzeichnis "zenodo" liegen. 3800 Einzeldateien in OpenRefine zu laden schlägt leicht fehl, daher ist es sinnvoll diese Dateien vorher ein Zip-Archiv zu packen und dann diese Zip-Datei in OpenRefine zu laden:
+### 1.3 Dateien in Zip-Archiv packen
+
+Die Dateien sollten nun im "Persönlichen Ordner" im Unterverzeichnis "zenodo" liegen. 3800 Einzeldateien in OpenRefine zu laden schlägt leicht fehl, daher packen wir diese Dateien in ein Zip-Archiv und laden dann (im nächsten Schritt) dieses Zip-Archiv in OpenRefine:
 
 ```
 zip -r zenodo.zip zenodo
@@ -41,7 +43,9 @@ zip -r zenodo.zip zenodo
 
 ### 2.1 OpenRefine starten
 
-```~/openrefine-2.7-rc.2/refine```
+```
+~/openrefine-2.7-rc.2/refine
+```
 
 ### 2.2 Projekt erstellen
 
@@ -77,23 +81,31 @@ http://unicode-table.com/en/241F/
 
 ### 3.1 Solr starten
 
-```~/solr-6.5.0/bin/solr start -s ~/solr-6.5.0/example/schemaless/solr```
+```
+~/solr-6.5.0/bin/solr start -s ~/solr-6.5.0/example/schemaless/solr
+```
 
 ### 3.2 Daten laden
 
 Wechseln Sie in der Kommandozeile in das Verzeichnis mit den gespeicherten Daten (z.B. mit ```cd Downloads```) und geben Sie dann den folgenden Befehl zum Laden der Daten ein. In dem Befehl muss der Dateiname der zu importierenden Datei angegeben werden, also: ```test.tsv``` durch den Dateinamen der mit OpenRefine exportierten Datei ersetzen.
 
-```curl "http://localhost:8983/solr/gettingstarted/update/csv?commit=true&separator=%09" --data-binary @test.tsv -H 'Content-type:text/plain; charset=utf-8'```
+```
+curl "http://localhost:8983/solr/gettingstarted/update/csv?commit=true&separator=%09" --data-binary @test.tsv -H 'Content-type:text/plain; charset=utf-8'
+```
 
 Falls Sie eine Fehlermeldung "Error adding field 'Jahr'='2014-09-21'" erhalten, dann liegt das daran, dass in unserem Schema im Feld Jahr nur Nummern zugelassen sind. In diesem Fall müssen Sie das Projekt noch einmal in OpenRefine laden, die Trennzeichen im Feld Jahr entfernen (z.B. mit der Transformation ```value[0,4]``` und die Datei nochmal exportieren.
 
 Wenn Sie mehrfachbelegte Felder aufsplitten wollen, müssen Sie die URL innerhalb der Anführungszeichen (mehrfach) ergänzen. Beispiel für Titel:
 
-```&f.Titel.split=true&f.Titel.separator=%E2%90%9F```
+```
+&f.Titel.split=true&f.Titel.separator=%E2%90%9F
+```
 
 Vollständiger Befehl für Beispiel Titel:
 
-```curl "http://localhost:8983/solr/gettingstarted/update/csv?commit=true&separator=%09&f.Titel.split=true&f.Titel.separator=%E2%90%9F" --data-binary @test.tsv -H 'Content-type:text/plain; charset=utf-8'```
+```
+curl "http://localhost:8983/solr/gettingstarted/update/csv?commit=true&separator=%09&f.Titel.split=true&f.Titel.separator=%E2%90%9F" --data-binary @test.tsv -H 'Content-type:text/plain; charset=utf-8'
+```
 
 ## 3.3 TYPO3 Ergebnis prüfen
 
