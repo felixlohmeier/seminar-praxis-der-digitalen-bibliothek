@@ -47,5 +47,7 @@
    * [4.2.1 Was haben wir im Seminar erreicht?](4-2-1-was-haben-wir-im-seminar-erreicht.md)
    * [4.2.2 Was fehlt noch für einen Produktivbetrieb?](4-2-2-was-fehlt-noch-fuer-einen-produktivbetrieb.md)
 * [Kapitel 5](5-0-erweiterungsmoeglichkeiten.md)
+  * [5.1 Zusätzliche Daten über OAI-Schnittstelle laden und mit OpenRefine verarbeiten](5-1-zusaetzliche-daten-ueber-oai-schnittstelle.md)
+  * [5.2 Relevanzranking mit TYPO3-find und Solr konfigurieren](5-2-relevanzranking-mit-typo3-find-und-solr.md)
 * [Lerntagebücher](lerntagebuecher.md)
 * [Prüfungsleistungen](pruefungsleistungen.md)

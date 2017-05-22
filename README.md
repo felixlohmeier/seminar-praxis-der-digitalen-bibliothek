@@ -39,7 +39,8 @@ Kapitel 4: Prototyp eines Katalogs mit TYPO3-find bauen
 * [4.2 Zwischenfazit](4-2-0-zwischenfazit.md)
 
 Kapitel 5: Erweiterungsmöglichkeiten
-* ...
+* [5.1 Zusätzliche Daten über OAI-Schnittstelle](5-1-zusaetzliche-daten-ueber-oai-schnittstelle.md)
+* [5.2 Relevanzranking mit TYPO3-find und Solr](5-2-relevanzranking-mit-typo3-find-und-solr.md)
 
 ## Lerntagebücher
 
